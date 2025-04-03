@@ -11,8 +11,8 @@ task = Task.init(project_name="Week7Demo", task_name="Pipeline step 2 process da
 # Use either dataset_task_id to point to a tasks artifact or
 # use a direct url with dataset_url
 args = {
-    'dataset_task_id': '4b4018eab56547c08bb34ab53378ddc1',
-    'dataset_url': '',
+    'dataset_task_id': '',
+    'dataset_url': 'https://github.com/allegroai/events/raw/master/odsc20-east/generic/iris_dataset.pkl',
     'random_state': 42,
     'test_size': 0.2,
 }
