@@ -24,7 +24,7 @@ def post_execute_callback_example(a_pipeline, a_node):
 # Connecting ClearML with the current pipeline,
 # from here on everything is logged automatically
 pipe = PipelineController(
-    name="Pipeline demo", project="Week7Demo", version="0.0.1", add_pipeline_tags=False
+    name="Week7Pipeline", project="Week7Demo", version="0.0.1", add_pipeline_tags=False
 )
 
 pipe.add_parameter(
