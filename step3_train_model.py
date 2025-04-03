@@ -1,3 +1,7 @@
+import os
+os.environ["MPLBACKEND"] = "Agg"  # Safe for non-GUI environments
+import matplotlib
+import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 import numpy as np
 from clearml import Task, Logger
@@ -14,7 +18,7 @@ logger = Logger.current_logger()
 
 # Arguments
 args = {
-    'dataset_task_id': 'e5d87ceb1090414b889b91d8a7e3ea01',
+    'dataset_task_id': 'ba44a64295944965a9c38e286d936b21',
 }
 task.connect(args)
 
